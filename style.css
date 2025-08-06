@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    min-height: 100px;
+}
+
+h2 {
+    padding-left: 50px;
+}
+
+h2::first-letter {
+    font-size: 1.5em;
+}
+
+.container button {
+    font-size: 1.5em;
+    border: none;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.navbar a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.container .navbar {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+.navbar .content {
+    background-color: rgb(59, 61, 62);
+    display: none;
+    margin-top: 13px;
+    min-height: 100px;
+    border-bottom-right-radius: 15px;
+}
+.navbar a {
+    color: white;
+}
+.navbar button:hover {
+    background-color: rgb(166, 162, 162);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.navbar:hover  .content{
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: rgb(161, 161, 161);
+    color: black;
+    border-bottom-right-radius: 15px;
+}
+
+.main-content .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(132, 50, 219);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.main-content span {
+    font-size: 1.5em;
+}
+
+.main-content p {
+    margin: auto 20px;;
+}
+
+.container .name {
+    text-decoration: none;
+    color: white;
+}
